@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
     <div className="App">
       <title>Kidzzy</title>
-      <h1>Kidzzy</h1>
+      <h1>Kid Zone</h1>
       <Navbar/>
       <Routes>
        <Route exact path="/" element={<HomePage/>}></Route>
