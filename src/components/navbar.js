@@ -11,6 +11,8 @@ function Navbar() {
         <Link to="/UpdateClothes">UpdateClothes</Link>
         <Link to="/AddClothes">AddClothes</Link>
         <Link to="/DeleteCloth">DeleteCloth</Link>
+        <Link to="/Weather">Weather</Link>
+
 
         </ul>
         </div>

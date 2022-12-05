@@ -93,6 +93,17 @@ outline:none;
 input[id="deleteClothID"]{
   width: 200px;
 }
+input[id="w1"]{
+  width: 200px;
+  align-content: center;
+  align: center;
+}
+input[id="w2"]{
+  width: 200px;
+  align-content: center;
+  align: center;
+
+}
 
 button{
   border:0 ;

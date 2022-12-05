@@ -6,6 +6,8 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import { UpdateClothes } from './pages/updateClothes';
 import {AddClothes} from './pages/addClothes';
 import {DeleteCloth} from './pages/deleteClothes';
+import Weather from './pages/weather';
+
 
 function App() {
   
@@ -22,6 +24,7 @@ function App() {
        <Route path="UpdateClothes" element={<UpdateClothes/>}></Route>
        <Route path="AddClothes" element={<AddClothes/>}></Route>
        <Route path="DeleteCloth" element={<DeleteCloth/>}></Route>
+       <Route path="weather" element={<Weather/>}></Route>
 
        </Routes>
     </div>
