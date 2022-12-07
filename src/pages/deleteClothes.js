@@ -4,7 +4,7 @@ function DeleteCloth(){
           method: 'DELETE'
         };
         var clothId = document.getElementById("deleteClothID").value;
-        fetch(`https://localhost:7085/api/Clothes/${clothId}`, requestOptions)
+        fetch(`https://storefrontkidzzy.azurewebsites.net/api/Clothes/${clothId}`, requestOptions)
           .then(alert("Delete successful"))
     }
     return(

@@ -12,7 +12,7 @@ function handleClick() {
 function Clothing() {
   const [clothes, setClothes] = useState([]);
   useEffect(() => {
-    fetch(`https://localhost:7085/api/Clothes`)
+    fetch(`https://storefrontkidzzy.azurewebsites.net/api/Clothes`)
       .then((response) => response.json())
       .then((actualData) => {
         console.log(actualData)

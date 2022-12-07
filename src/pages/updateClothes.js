@@ -22,7 +22,7 @@ function UpdateClothes() {
       body: JSON.stringify(jsonData)
     };
 
-    fetch(`https://localhost:7085/api/Clothes/${clothId}`, requestOptions)
+    fetch(`https://storefrontkidzzy.azurewebsites.net/api/Clothes/${clothId}`, requestOptions)
       .then(alert("Update successful"))
   }
 

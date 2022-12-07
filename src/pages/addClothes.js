@@ -21,7 +21,7 @@ function AddClothes() {
         body: JSON.stringify(jsonData)
       };
   
-      fetch(`https://localhost:7085/api/Clothes`, requestOptions)
+      fetch(`https://storefrontkidzzy.azurewebsites.net/api/Clothes`, requestOptions)
         .then(alert("Add successful"))
     }
   
